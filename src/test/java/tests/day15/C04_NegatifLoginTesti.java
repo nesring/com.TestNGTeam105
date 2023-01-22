@@ -25,7 +25,7 @@ public class C04_NegatifLoginTesti {
         qualityDemyPage.ilkLoginLinki.click();
         qualityDemyPage.kullaniciEmailKutusu.sendKeys("mehmet@abc.com");
         qualityDemyPage.passwordKutusu.sendKeys("31488081");
-        qualityDemyPage.loginBotonu.click();
+        qualityDemyPage.loginButonu.click();
 
         Assert.assertTrue(qualityDemyPage.kullaniciEmailKutusu.isDisplayed());
 
@@ -43,7 +43,7 @@ public class C04_NegatifLoginTesti {
             qualityDemyPage.ilkLoginLinki.click();
                         qualityDemyPage.kullaniciEmailKutusu.sendKeys("user_1106147@login.com");
             qualityDemyPage.passwordKutusu.sendKeys("123456");
-            qualityDemyPage.loginBotonu.click();
+            qualityDemyPage.loginButonu.click();
 
             Assert.assertTrue(qualityDemyPage.kullaniciEmailKutusu.isDisplayed());
 
@@ -60,7 +60,7 @@ public class C04_NegatifLoginTesti {
             qualityDemyPage.ilkLoginLinki.click();
             qualityDemyPage.kullaniciEmailKutusu.sendKeys("mehmet@abc.com");
             qualityDemyPage.passwordKutusu.sendKeys("123456");
-            qualityDemyPage.loginBotonu.click();
+            qualityDemyPage.loginButonu.click();
 
             Assert.assertTrue(qualityDemyPage.kullaniciEmailKutusu.isDisplayed());
 

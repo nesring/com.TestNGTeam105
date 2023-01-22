@@ -36,7 +36,7 @@ public class C03_PozitifLoginTesti {
 
         // 5- Login butonuna basarak login olun
 
-        qualityDemyPage.loginBotonu.click();
+        qualityDemyPage.loginButonu.click();
 
         // 6- Basarili olarak giris yapilabildigini test edin
 
