@@ -1,4 +1,4 @@
-package tests.day15;
+package tests.day15_softAssert;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
@@ -7,11 +7,9 @@ import pages.AmazonPage;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-import java.util.Arrays;
-
 public class C01_SoftAssert {
 
-    @Test
+    @Test(groups = "minireg2")
     public void test01() {
 
         // amazon anasayfaya gidin

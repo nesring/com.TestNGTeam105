@@ -89,5 +89,14 @@ public class Driver {
         }
     }
 
+    public static void quitDriver() {
+
+        if (driver != null) {
+            driver.quit();
+            driver=null;
+
+        }
+    }
+
 
 }

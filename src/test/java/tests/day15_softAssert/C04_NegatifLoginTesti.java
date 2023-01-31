@@ -1,7 +1,5 @@
-package tests.day15;
+package tests.day15_softAssert;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualityDemyPage;

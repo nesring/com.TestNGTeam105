@@ -31,9 +31,17 @@ public class C03_SwitchingWindows {
 
         Assert.assertEquals(actualYazi,expectedYazi);
 
-        Driver.getDriver().quit();
+       // Driver.getDriver().quit();
+      //  Driver.closeDriver();
+
+        // xml ile toplu calistirdih+gimizda bundan sonraki test calismadi cunku
+        // quit ile sayfayi kapatinca sonraki test driver classindan driver acamadi
+        // o yuzden bunu iptal edip close yaptik..7/01/23
 
 
+        // bunu da iptal edip drivet class ina quit driver metodu ekleyip deriver i close ile degil quit ile kapattik
+
+        Driver.quitDriver();
 
     }
 

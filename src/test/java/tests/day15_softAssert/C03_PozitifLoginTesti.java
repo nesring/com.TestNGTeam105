@@ -1,15 +1,13 @@
-package tests.day15;
+package tests.day15_softAssert;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualityDemyPage;
 import utilities.Driver;
 
-import java.util.Date;
-
 public class C03_PozitifLoginTesti {
 
-    @Test
+    @Test(groups = "smoke")
 
     public void test01() {
 
@@ -28,11 +26,11 @@ public class C03_PozitifLoginTesti {
 
         // 3- Kullanici email’i olarak valid email girin
 
-        qualityDemyPage.kullaniciEmailKutusu.sendKeys("user_1106147@login.com");
+        qualityDemyPage.kullaniciEmailKutusu.sendKeys("jinoda1750@quamox.com");
 
         // 4- Kullanici sifresi olarak valid sifre girin
 
-        qualityDemyPage.passwordKutusu.sendKeys("31488081");
+        qualityDemyPage.passwordKutusu.sendKeys("Asd123123");
 
         // 5- Login butonuna basarak login olun
 
