@@ -34,7 +34,7 @@ public class C02_DependsOnMethods {
 // ama birden fazla bagimliklik varsa ve sadece 1 i calissa hata verir
 // sadece 3 u calistirsak hata verir
 
-// ilk test calissa ama failed olsa, hata veriri cunku ikincinin sarti 1. passed olmasi
+// ilk test calissa ama failed olsa, hata verir cunku ikincinin sarti 1. passed olmasi
 // bu durumda 1 hata verir, 2 ve 3 ignore edilir
 
 

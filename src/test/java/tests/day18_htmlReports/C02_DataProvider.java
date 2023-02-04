@@ -26,7 +26,7 @@ public class C02_DataProvider {
     // Nutella, java, apple, samsung, armut kelimeleri icin arama yapalim
     // sonuclarin bu kelimelri icerdigini test edelim
 
-    // farkli datalar icin ayni test tekra tekra calisacak
+    // farkli datalar icin ayni test tekrar tekrar calisacak
 
 
     @Test(dataProvider = "AmazonAranacakKelimeler")

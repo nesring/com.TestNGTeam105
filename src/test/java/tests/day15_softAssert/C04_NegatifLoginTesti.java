@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualityDemyPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C04_NegatifLoginTesti {
 
@@ -37,9 +38,11 @@ public class C04_NegatifLoginTesti {
         public void yanlisPasswordTesti(){
 
             Driver.getDriver().get("https://www.qualitydemy.com/");
+            ReusableMethods.bekle(5);
             qualityDemyPage.cookiesAcceptButton.click();
+            ReusableMethods.bekle(3);
             qualityDemyPage.ilkLoginLinki.click();
-                        qualityDemyPage.kullaniciEmailKutusu.sendKeys("user_1106147@login.com");
+            qualityDemyPage.kullaniciEmailKutusu.sendKeys("user_1106147@login.com");
             qualityDemyPage.passwordKutusu.sendKeys("123456");
             qualityDemyPage.loginButonu.click();
 
@@ -54,7 +57,9 @@ public class C04_NegatifLoginTesti {
     public void yanlisEmailYanlisPasswordTest(){
 
             Driver.getDriver().get("https://www.qualitydemy.com/");
+            ReusableMethods.bekle(5);
             qualityDemyPage.cookiesAcceptButton.click();
+            ReusableMethods.bekle(3);
             qualityDemyPage.ilkLoginLinki.click();
             qualityDemyPage.kullaniciEmailKutusu.sendKeys("mehmet@abc.com");
             qualityDemyPage.passwordKutusu.sendKeys("123456");
