@@ -12,6 +12,7 @@ public class C01_SoftAssert {
     @Test(groups = "minireg2")
     public void test01() {
 
+        ReusableMethods.bekle(3);
         // amazon anasayfaya gidin
 
         Driver.getDriver().get("https://www.amazon.com");

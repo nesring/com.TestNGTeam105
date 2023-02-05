@@ -6,10 +6,14 @@ import org.testng.annotations.Test;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
+import javax.print.DocFlavor;
+
 public class C03_SwitchingWindows {
 
     @Test
     public void test01(){
+
+        ReusableMethods.bekle(3);
 
         // https://the-internet.herokuapp.com/iframe adresine gidin
 
